@@ -411,23 +411,34 @@ aside div p:last-child {
   padding: 0.5em;
   margin-bottom: 0.6em;
 }
+@media screen and (min-width: 1200px) {
+  .icon3 {
+    position: relative;
+    top: -260vh;
+    background-color: rgb(255, 255, 255, 0.5);
+    opacity: 70%;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 0.5em 0em 0em 0.5em;
+    padding: 0.5em;
+    margin-bottom: 0.6em;
+  }
+}
 
-.fa-plus {
+.fa-plus-square {
   color: blue;
   position: relative;
   font-size: large;
 }
-.fa-calendar-days {
+.fa-calendar-alt {
   color: blue;
   position: relative;
   font-size: large;
 }
 
-.fa-square-caret-up {
-  color: relative;
+.fa-caret-square-up {
+  color: darkorange;
   font-size: large;
   position: relative;
-  color: orange;
 }
 footer {
   background: rgb(53, 53, 53);
